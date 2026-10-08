@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fefae0;
+}
+.cabecalho {
+  display: flex;
+ align-items: center;
+  justify-content: flex-end;
+  padding: 20px;
+   background-color: #e9edc9;
+  color: #000000;
+margin: none;
+
+}
+
+.cabecalho a {
+  color: inherit;
+  text-decoration: none;
+margin: none;
+  background-color: #e9edc9;
+  color: #000000;
+  transition: all 300ms ease;
+  padding: 10px 9px;
+  border-radius: 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+
+}
+
+
+.cabecalho a:hover {
+  background-color: #fbffde;
+}
+.cabecalho img {
+position: absolute;
+width: 150px;
+left: 10px ;
+}
+
+h1{
+text-align: center;  
+color: rgb(0, 68, 0);
+border-radius: 20px;
+background-color: #e9edc9;
+margin:0px 50px;
+font-size: 18pt;
+}
+.conhecer{
+  text-align: center;
+}
+p{
+  text-align: center;
+font-size: 10pt;
+margin: 10px;
+}
+ .contato a{
+  font-size: 10pt;
+  position: absolute;
+  right: 200px;
+ background-color: #e9edc9;
+  color: #000000;
+  padding: 10px 9px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+text-decoration: none;
+}
+ .principal a{
+ 
+  font-size: 10pt;
+  position: absolute;
+  right: 165px;
+  background-color: #e9edc9;
+  color: #000000;
+  padding: 10px 9px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+text-decoration: none;
+top: 160px;
+}
