@@ -1,0 +1,53 @@
+body {
+    background-color: brown;
+    color: blue;
+    margin: 0;
+    padding: 0;
+}
+
+.folder {
+    background-image:
+    linear-gradient(to right bottom, transparent 40%, pink)95%,
+    linear-gradient(to left top, transparent 30%, blue)55%;
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-attachment: scroll;
+    height: 640px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.titulo {
+    color: #A3B18A;
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+.logo a{
+    color:brown;
+    text-decoration: none;
+    font-size: 17pt;
+    padding: 8px 12px;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+ 
+.logo {
+    color: rgb(72, 72, 167);
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+
+.logo a:hover{
+    background-color: aqua;
+}
+
+
+
+
+
+
+
+
